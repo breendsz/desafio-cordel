@@ -4,6 +4,10 @@
     font-family: "Abassy";
     src: url("fonts/Abbasy Calligraphy Typeface.ttf");
 }
+@font-face {
+    font-family: "Intensa";
+    src: url("fonts/Intensa Fuente.ttf");
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -21,17 +25,19 @@ header {
 }
 header > h1 {
     padding-top: 50px;
-    font-family: "Abassy";
+    font-family: "Intensa";
+    font-size: 3em;
 }
 header > p {
     padding-bottom: 50px;
-    font-family: "Abassy";
-    font-size: 18px;
+    font-family: "Intensa";
+    font-size: 1.5em;
 }
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    font: italic normal 1.5em "Abassy";
 }
 section.c01 {
     background-color: white;
@@ -42,8 +48,8 @@ section.c02 {
     color: white;
 }
 section.c02 > p {
+    display: inline-block;
     background-color: gray;
-    width: 50%;
 }
 a {
     color: white;
