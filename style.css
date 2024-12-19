@@ -39,17 +39,39 @@ section {
     line-height: 2em;
     font: italic normal 1.5em "Abassy";
 }
+section > p {
+    padding: 20px;
+    padding-bottom: 2em;
+    margin-left: 50px;
+}
 section.c01 {
     background-color: white;
     color: black;
 }
+section.c01 > p {
+    text-shadow: 1px 1px 0px #00000093;
+}
 section.c02 {
     background-color: darkgray;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
 }
 section.c02 > p {
     display: inline-block;
-    background-color: gray;
+    background-color: #00000086;
+    text-shadow: 1px 1px 1px #000000;
+    border-radius: 10px;
+}
+section#img01 {
+    background-image: url(images/jojo1.png);
+    background-position: center;
+    background-size: cover;
+}
+section#img02 {
+    background-image: url(images/jojo2.png);
+    background-position: top;
+    background-size: cover;
 }
 a {
     color: white;
